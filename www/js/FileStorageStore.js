@@ -23,6 +23,9 @@ var FileStorageStore = function() {
         window.requestFileSystem(window.PERSISTENT, 10*1024*1024, onInitFs, errorHandler);
     };
     
+    // Loaded on GitHub
+    
+    
     // Initialize the filesystem and assign to self.fs for reuse
     var onInitFs = function(fs) {
         self.fs = fs;
