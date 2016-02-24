@@ -26,6 +26,7 @@ var FileStorageStore = function() {
     // Loaded on GitHub
     
     
+    
     // Initialize the filesystem and assign to self.fs for reuse
     var onInitFs = function(fs) {
         self.fs = fs;
